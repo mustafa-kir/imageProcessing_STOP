@@ -66,7 +66,7 @@ test_image = test_image / 255.0
 prediction = model.predict(test_image)
 
 # Tahmin sonucunu yazdır
-if prediction[0][0] > 0.5:
+if prediction[0][0] < 0.5:
     print("STOP")
 else:
     print("STOP No Sraffic Sign")
