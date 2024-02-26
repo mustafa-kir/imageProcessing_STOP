@@ -1,5 +1,5 @@
-# imageProcessing_STOP
-Proje Açıklaması:
+# # imageProcessing_STOP
+# Proje Açıklaması:
 Bu proje, trafik işaretlerinin varlığını tespit etmek için bir görüntü işleme ve makine öğrenimi yaklaşımı kullanmaktadır. İlk adımda, veri kümesi, stop işaretlerini içeren ve içermeyen iki sınıfa ayrılmıştır. Ardından, OpenCV kullanılarak görüntüler gri ölçekte okunmuş, yeniden boyutlandırılmış ve ön işleme adımları gerçekleştirilmiştir. Daha sonra, veri kümesi, eğitim ve test setlerine ayrılmış ve bir CNN modeli oluşturulmuştur. Model eğitimi binary cross-entropy kaybı ve Adam optimizer ile gerçekleştirilmiştir. Son olarak, eğitilen model, bir test görüntüsü üzerinde uygulanarak trafik işareti varlığını tespit etmektedir.
 
 Kullanılan Teknolojiler:
